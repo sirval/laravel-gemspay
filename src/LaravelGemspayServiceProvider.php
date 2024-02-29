@@ -2,9 +2,9 @@
 
 namespace Sirval\LaravelGemspay;
 
+use Sirval\LaravelGemspay\Commands\LaravelGemspayCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sirval\LaravelGemspay\Commands\LaravelGemspayCommand;
 
 class LaravelGemspayServiceProvider extends PackageServiceProvider
 {
