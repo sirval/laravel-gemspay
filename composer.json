@@ -1,18 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "sirval/laravel-gemspay",
+    "description": "A Laravel Package for Gemspay",
     "keywords": [
-        ":vendor_name",
+        "sirval",
         "laravel",
-        ":package_slug"
+        "laravel-gemspay"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/sirval/laravel-gemspay",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
-            "role": "Developer"
+            "name": "Ohuka Ikenna Valentine",
+            "email": "ohukaiv@gmail.com"
         }
     ],
     "require": {
@@ -35,19 +34,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Sirval\\LaravelGemspay\\": "src/",
+            "Sirval\\LaravelGemspay\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Sirval\\LaravelGemspay\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-laravel-gemspay --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +72,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Sirval\\LaravelGemspay\\LaravelGemspayServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelGemspay": "Sirval\\LaravelGemspay\\Facades\\LaravelGemspay"
             }
         }
     },
