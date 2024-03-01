@@ -76,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Ikenna_Valentine](https://github.com/sirval)
+- [Ikenna Ohuka](https://github.com/sirval)
 - [All Contributors](../../contributors)
 
 ## License
