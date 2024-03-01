@@ -9,9 +9,8 @@
  * file that was distributed with this source code.
 */
 
-if (! function_exists("gemspay"))
-{
-    function gemspay() 
+if (! function_exists('gemspay')) {
+    function gemspay()
     {
         return app()->make('laravel-gemspay');
     }

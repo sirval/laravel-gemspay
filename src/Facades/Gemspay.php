@@ -13,13 +13,13 @@ namespace Sirval\Gemspay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-
 class Gemspay extends Facade
 {
     /**
      * Get the registered name of the package
+     *
      * @return string
-    */
+     */
     protected static function getFacadeAccessor()
     {
         return 'laravel-gemspay';

@@ -11,27 +11,23 @@
 
 // config for Sirval/Gemspay
 return [
-     /**
+    /**
      * Public Key From Gemspay Dashboard
-     *
      */
     'publicKey' => getenv('GEMSPAY_PUBLIC_KEY'),
 
     /**
      * Secret Key From Gemspay Dashboard
-     *
      */
     'secretKey' => getenv('GEMSPAY_SECRET_KEY'),
 
     /**
      * Gemspay Payment URL
-     *
      */
     'paymentUrl' => getenv('GEMSPAY_PAYMENT_URL'),
 
     /**
      * Optional email address of the merchant
-     *
      */
     'merchantEmail' => getenv('MERCHANT_EMAIL'),
 
